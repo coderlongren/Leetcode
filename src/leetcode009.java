@@ -26,8 +26,6 @@ public class leetcode009 {
     		x = x % d /10;
 			d = d/100;
 		}
-    	
-    	
 		return true;
         
     }
