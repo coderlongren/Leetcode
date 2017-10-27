@@ -1,5 +1,5 @@
 
-public class leetcode009 {
+public class leetcode009_isPalindrome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

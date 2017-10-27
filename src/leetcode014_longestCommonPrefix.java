@@ -1,5 +1,5 @@
 
-public class leetcode014 {
+public class leetcode014_longestCommonPrefix {
 /**
  * 
  *  a function to find the longest common prefix string amongst an array of strings. aram args

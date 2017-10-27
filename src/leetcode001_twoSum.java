@@ -4,7 +4,7 @@ import java.util.Map;
 import org.junit.Test;
 
 
-public class leetcode001 {
+public class leetcode001_twoSum {
 	@Test
 	public int[] twoSum(int[] nums, int target) {
 

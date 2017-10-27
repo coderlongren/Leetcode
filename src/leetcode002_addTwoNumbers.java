@@ -10,7 +10,7 @@
 	
 	关键是采用  carry 来记录每次 相加之后的进位  如果 两个链表都为null && carry == 0 finished  else 。。。。。。。。
   */
-public class leetcode002 {
+public class leetcode002_addTwoNumbers {
 	
 }
 

@@ -1,5 +1,5 @@
 
-public class leetcode005 {
+public class leetcode005_LongestPalindromicSubString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

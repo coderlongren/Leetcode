@@ -1,7 +1,7 @@
 import org.omg.CORBA.LongLongSeqHelper;
 
 
-public class leetcode008 {
+public class leetcode008_atoi {
 	
 	
 //	(^..^)(^..^)(^..^)(^..^)(^..^)(^..^) 

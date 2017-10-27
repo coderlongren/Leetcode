@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-public class leetcode003 {
+public class leetcode003_lengthOfLongestSubstring {
 
 	// Longest Substring Without Repeating Characters 
 	public static void main(String[] args) {
