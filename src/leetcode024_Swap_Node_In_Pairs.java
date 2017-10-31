@@ -12,6 +12,7 @@ public class leetcode024_Swap_Node_In_Pairs {
 			return head;
 		}
 		
+		//在这里的算法那是 是获得 list的最后的 大于result的结果
 		ListNode fakehead = new ListNode(0);
 		ListNode result = fakehead;
 		fakehead.next = head;
@@ -22,7 +23,6 @@ public class leetcode024_Swap_Node_In_Pairs {
 			first.next = second.next;
 			fakehead.next = second;
 			second.next = first;
-			
 			fakehead = fakehead.next.next;
 		}
 		

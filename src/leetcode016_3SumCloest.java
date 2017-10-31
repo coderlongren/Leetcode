@@ -3,9 +3,7 @@ import java.util.Arrays;
 
 public class leetcode016_3SumCloest {
 	public static int main(String[] args){
-		
-		
-		
+				
 		return 0;
 	}
 	public static int threeSumClosest(int[] nums, int target) {
