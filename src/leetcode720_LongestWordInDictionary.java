@@ -27,7 +27,7 @@ public class leetcode720_LongestWordInDictionary {
 				 }
 			 }
 		 }
-		 System.out.println(result);
+//		 System.out.println(result);
 		 String string = result.get(0);
 		 for (int i = 0; i < result.size(); i++){
 			 if (result.get(i).length() >= string.length()){

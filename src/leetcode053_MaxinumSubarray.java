@@ -10,20 +10,15 @@ public class leetcode053_MaxinumSubarray {
 	  public static int maxSubArray(int[] nums) {
 	        
 		  int len = nums.length;
-		  int[] dp = new int[len];
-		  dp[0] = nums[0];
-		  int max = nums[0];
-		  for (int i = 1; i < len; i++){
-			  if (nums[i] + dp[i - 1] > 0){
-				dp[i] = nums[i] + dp[i - 1];  
-			  }
-			  else {
-				dp[i] = 0;
-			  }
-			  max = Math.max(max, dp[i]);
+		  int result = nums[0];
+		  int sum = 0;
+		  for (int i = 0; i < len; i++){
+			sum += nums[i];
+			result = Math.max(result, sum);
+			sum = Math.max(sum, 0);
 		  } 
 		
-		  return max;
+		  return result;
 	  }
 
 }
