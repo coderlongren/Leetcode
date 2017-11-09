@@ -9,6 +9,7 @@ public class 表达式计算 {
 	
 	//计算符号的 优先级的函数
 	public static int getOplevel(char op){
+		return op;
 		
 	}
 	
