@@ -42,7 +42,6 @@ public class leetcode078_SubSet {
 				 temp.add(y);
 			 }
 			 answer.addAll(temp);
-			 
 		 }
 		 return answer;
 		 
