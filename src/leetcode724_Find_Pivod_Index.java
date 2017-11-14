@@ -2,7 +2,8 @@
 public class leetcode724_Find_Pivod_Index {
 
 	public static void main(String[] args) {
-
+		
+		
 	}
 	public static int pivotIndex(int[] nums) {
         int len = nums.length;
