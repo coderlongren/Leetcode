@@ -3,7 +3,7 @@ public class leetcode005_LongestPalindromicSubString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String string = "bb";//Expect result is aba
+		String string = "bbbfgfg";//Expect result is aba
 		System.out.println(LongestPalindromicSubString(string));
 	}
 	//Çó½â
