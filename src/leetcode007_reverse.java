@@ -4,6 +4,10 @@ public class leetcode007_reverse {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println( Integer.MAX_VALUE);
+		
+		String string = "  ss  ";
+		string = string.trim();
+		
 	}
 	public int reverse(int x){
 		int result = 0;
@@ -18,6 +22,7 @@ public class leetcode007_reverse {
 			x = x/10;
 		}
 		return result;
+		
 		
 	}
 
