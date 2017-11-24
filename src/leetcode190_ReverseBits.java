@@ -11,7 +11,6 @@ public class leetcode190_ReverseBits {
 		 }
 		 
 		 
-		 
 		 String binaryStr = Integer.toBinaryString(n);
 		 int len = binaryStr.length();
 		 StringBuilder stringBuilder = new StringBuilder(binaryStr);
