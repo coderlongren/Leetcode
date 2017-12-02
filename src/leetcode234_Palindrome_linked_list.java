@@ -30,6 +30,8 @@ public class leetcode234_Palindrome_linked_list {
     		stringBuilder.append(head.val);
     		head = head.next;
     	}
+    	
+    	
     	System.out.println(stringBuilder.toString());
 		return false;
         
