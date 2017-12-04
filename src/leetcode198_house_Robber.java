@@ -6,6 +6,7 @@ public class leetcode198_house_Robber {
 
 	}
 	public static int rob(int[] nums) {
+		return 0;
         
     }
 
