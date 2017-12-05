@@ -21,6 +21,6 @@ I put perfect notes on the back of each question， Hope！have a good time!
 * Tree
 *.......
 
-## AFQ 
+## FAQ
 if you have a problem ,ask me '862983319@qq.com'
 I'm a hot hearted man
