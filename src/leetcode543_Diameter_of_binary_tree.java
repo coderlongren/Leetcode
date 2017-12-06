@@ -6,6 +6,7 @@ public class leetcode543_Diameter_of_binary_tree {
 
 	}
 	 public static int diameterOfBinaryTree(TreeNode root) {
+		return 0;
 	        
 	    
 	 }
