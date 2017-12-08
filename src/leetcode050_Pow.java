@@ -2,7 +2,8 @@
 public class leetcode050_Pow {
 
 	public static void main(String[] args) {
-		System.out.println(Math.pow(2.0000, -21474854));
+		System.out.println(Math.pow(2.0000, 3));
+		System.out.println();
 	}
 	public static double myPow(double x, int n) {
         
@@ -25,6 +26,7 @@ public class leetcode050_Pow {
 		}
 		
 		
+		
 //		double res = 1.0;
 //		for (int i = 0; i < n; i++){
 //			res *= x;
@@ -32,5 +34,15 @@ public class leetcode050_Pow {
 //		return res;
 		
     }
+	double myPow2(double x,int n){
+		if (n == 0){
+			return 1;
+		}
+		if (n < 0){
+			x = x/1;
+			n = -n;
+		}
+		return n%2 == 0? myPow2(x*x, n/2):x*myPow2(x*x, n/2);
+	}
 
 }
