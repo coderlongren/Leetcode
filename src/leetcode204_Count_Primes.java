@@ -19,9 +19,9 @@ public class leetcode204_Count_Primes {
 		for (int i = 2; i*i < n;i++){
 			// 第一个 素数 画上去圈  并逐次划掉 这个素数的倍数
 			if (!isPrime[i]){
-				for (int j = 2*i;j < n; j++){
+				for (int j = 2;i*j < n; j++){
 					// 划去此元素
-					isPrime[j] = true;
+					isPrime[j*i] = true;
 				}
 			}
 		}
