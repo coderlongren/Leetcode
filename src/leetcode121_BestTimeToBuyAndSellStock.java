@@ -29,8 +29,5 @@ public class leetcode121_BestTimeToBuyAndSellStock {
 	     }
 	     return profit;
 	     
-	     
-		 
-		 
 	 }
 }
