@@ -8,7 +8,7 @@ public class leetcode003_lengthOfLongestSubstring {
 	// Longest Substring Without Repeating Characters 
 	public static void main(String[] args) {
 		
-		String string = "dvdf";
+		String string = "dvdfdcghj";
 		System.out.println(lengthOfLongestSubstring(string));
 //		for (int i = 1;i < 1; i++){
 //			System.out.println("a");

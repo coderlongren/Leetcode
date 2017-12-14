@@ -7,7 +7,7 @@ public class leetcode303_range_sum_Query_immutable {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 	}
 	int[] nums;
 

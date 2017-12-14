@@ -6,10 +6,11 @@ public class leetcode008_atoi {
 	
 //	(^..^)(^..^)(^..^)(^..^)(^..^)(^..^) 
 	public static void main(String[] args) {
-		String str = "-9223372036854775809";
+		String str = "4775809";
 		System.out.println(Integer.MAX_VALUE );
 		System.out.println(Integer.MIN_VALUE);
 		System.out.println(atoi(str));
+		System.out.println(Integer.valueOf("1000",2).toString());
 	}
 	public static int atoi(String str){
 		

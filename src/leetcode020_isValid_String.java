@@ -16,7 +16,7 @@ import java.util.Stack;
 public class leetcode020_isValid_String {
 	public static void main(String[] args){
 		//ÅÐ¶Ï×Ö·ûÊÇ·ñºÏ·¨ 
-		String string = "(){}{}[][]";
+		String string = "(){}{}[][";
 		System.out.println(isValid(string));
 	}
 public static boolean isValid(String s){
