@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2017年12月11日 下午10:24:20
-* 类说明: 
+* 类说明: 正确的技法
 */
 public class leetcode_268_missing_number_best {
 

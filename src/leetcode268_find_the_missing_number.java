@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2017年12月11日 下午10:05:02
-* 类说明: 
+* 类说明:  错误的揭发
 */
 public class leetcode268_find_the_missing_number {
 
