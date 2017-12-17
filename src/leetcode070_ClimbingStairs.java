@@ -3,7 +3,7 @@ import java.lang.management.MemoryType;
 public class leetcode070_ClimbingStairs {
 
 	public static void main(String[] args) {
-		System.out.println(climbingStairs(3));
+		System.out.println(climbingStairs(2));
 	}
 	public static int climbingStairs(int n){
 		int[] memory = new int[n + 1];

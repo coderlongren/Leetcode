@@ -4,13 +4,13 @@ import java.util.Map;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2017年12月15日 下午8:50:58
-* 类说明: 
+* 类说明:   滑动窗口法
 */
 public class leetcode003_longest_Substring {
 
 	public static void main(String[] args){
 
-		String string = "dvdfdcghj";
+		String string = "dvdc";
 		System.out.println(lengthOfLongestSubstring(string));
 
 	}
