@@ -15,8 +15,6 @@ public class leetcode028_strStr {
 		if (needle.length() > haystack.length()){
 			return -1;
 		}
-		
-		
 		int length = needle.length();
 		for (int i = 0; i < haystack.length(); i++){
 			if (i + length <= haystack.length()){

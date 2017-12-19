@@ -4,7 +4,7 @@ import java.util.Map;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2017年12月17日 上午11:47:24
-* 类说明: 
+* 类说明:  easy
 */
 public class leetcode076_minimum_windoa_substring{
 
