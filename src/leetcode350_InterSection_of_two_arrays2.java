@@ -17,8 +17,7 @@ public class leetcode350_InterSection_of_two_arrays2 {
 	// 在这里我使用了 hashMap 存储相同元素的次数 在nums2 中 ，每出现了一次相同的
 	// 元素 就把map中元素个数减一  方然判断的时候就要加一层限制了 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 	}
 	 public int[] intersect(int[] nums1, int[] nums2) {
 	        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
@@ -38,13 +37,11 @@ public class leetcode350_InterSection_of_two_arrays2 {
 	                map.put(nums2[i], map.get(nums2[i])-1);
 	            }
 	        }
-	    
 	       int[] r = new int[result.size()];
 	       for(int i = 0; i < result.size(); i++)
 	       {
 	           r[i] = result.get(i);
 	       }
-	    
 	       return r;
 	    }
 }
