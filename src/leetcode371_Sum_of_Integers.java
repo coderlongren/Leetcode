@@ -10,9 +10,16 @@ public class leetcode371_Sum_of_Integers {
 		System.out.println(~2);
 		System.out.println(1<<1);
 		System.out.println(1>>1);
+		System.out.println(getSum(1, 3));
 	}
 	  public static int getSum(int a, int b) {
-		return b;
+		  if (b == 0){
+			  return a;
+		  }
+		  else {
+			  System.out.println("a = " + a + "  b = " + b + "");
+			  return getSum(a ^ b, (a & b) << 1);
+		  }
 	        
 	    }
 
