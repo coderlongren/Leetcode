@@ -1,3 +1,2 @@
-git add .
-git commit -m "add"
+DATE=$(date +%Y%m%d)
 
