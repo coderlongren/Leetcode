@@ -26,7 +26,7 @@ public class leetcode374_Guest_number_higher_or_lower {
 				 right = mid - 1;
 			 }
 		 }
-		 
+		 return left;
 		 
 	 }
 	private int guess(int mid) {
