@@ -22,6 +22,7 @@ public class leetcode438_find_all_anagrams_in_stirng {
 	    for (char c : p.toCharArray()) {
 	        hash[c]++;
 	    }
+	    // 
 	    for (int i : hash) {
 			if (i > 0){
 				System.out.println(i);
