@@ -10,6 +10,7 @@ public class leetcode383_Ranson_Note {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		String ransomNote = "aabbcd";
 		String mag = "abbbccddfff";
 		System.out.println(canConstruct(ransomNote, mag));
