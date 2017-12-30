@@ -22,7 +22,7 @@ public class leetcode482_license_key_formatting {
 		}
 		String newString = stringBuilder.toString();
 		if (newString.length() == 1){
-			return newString;
+			return newString.toUpperCase();
 		}
 		int zhengchu = stringBuilder.length()/K;
 		int yushu = stringBuilder.length()%K;

@@ -10,6 +10,7 @@ public class leetcode485_Max_Consecutive {
 		System.out.println(Integer.valueOf("111",2));
 		int[] nums = {1,1,0,1,1,1};
 		System.out.println(findMaxConsecutiveOnes(nums));
+		
 	}
 	 public static int findMaxConsecutiveOnes(int[] nums) {
 		 if (nums == null || nums.length == 0){
@@ -29,8 +30,6 @@ public class leetcode485_Max_Consecutive {
 			 result = Math.max(result, count);
 			 
 		 }
-		 
-		 
 		return result;
 		 
 	 }
