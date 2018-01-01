@@ -1,27 +1,27 @@
-package test;
+package 创建对象的五种方法;
+
+import java.io.Serializable;
+
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2017年12月23日 下午12:10:36
 * 类说明: 
 */
-public class person implements Cloneable{
+public class Person  implements Cloneable,Serializable{
 	 public String name;
-	 public int age;
 	 @Override
 	protected Object clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
 		return super.clone();
 	}
-	 
-	public person(String name,int age) {
+	public int age;
+	 public Person(String name,int age) {
 		 this.name = name;
 		 this.age = age;
 	}
-	
-	// 默认构造函数
-	 public person(){
-//		 this.name = "aaa";
-//		 this.age = 21;
+	 public Person(){
+		 
 	 }
+	 
 		
 }
