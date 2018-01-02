@@ -1,4 +1,4 @@
-package AlgortithmDesign.recursion;
+package 几种排序算法;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2017年12月17日 下午2:52:10

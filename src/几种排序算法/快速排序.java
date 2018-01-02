@@ -1,4 +1,4 @@
-package AlgortithmDesign.recursion;
+package 几种排序算法;
 
 import java.util.LinkedList;
 
@@ -9,7 +9,7 @@ import java.util.LinkedList;
 */
 public class 快速排序 {
 	public static void main(String[] args){
-		int[] a = {4,2,1,3,5};
+		int[] a = {4,2,1,3,5,-1,100};
 		for (int i : a) {
 			System.out.print(i  + " ");
 		}
@@ -32,8 +32,8 @@ public class 快速排序 {
             }
             array[hi]=array[lo];
         }
-        array[hi]=key;
-        return hi;
+        array[lo]=key;
+        return lo;
     }
     
     public static void sort(int[] array,int lo ,int hi){
