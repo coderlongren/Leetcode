@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年1月2日 下午9:17:05
-* 类说明: 
+* 类说明:   坑的吧 
 */
 public class leetcode496_next_greater_element2 {
 
