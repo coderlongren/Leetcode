@@ -7,7 +7,7 @@ import java.util.TreeSet;
 * @version 创建时间：2018年1月2日 上午10:33:25
 * 类说明: 
 */
-public class 冒泡排序 {
+public class 优化的冒泡排序 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

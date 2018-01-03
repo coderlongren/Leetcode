@@ -4,7 +4,7 @@ package 几种排序算法;
 * @version 创建时间：2018年1月2日 上午10:26:13
 * 类说明: 
 */
-public class 简答选择排序 {
+public class 简单选择排序 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

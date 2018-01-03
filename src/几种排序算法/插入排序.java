@@ -2,7 +2,7 @@ package 几种排序算法;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2017年12月17日 下午2:52:10
-* 类说明: 
+* 类说明:  就地排序 不需要额外的空间
 */
 public class 插入排序 {
 

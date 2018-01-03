@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2017年12月17日 下午3:23:16
-* 类说明: 
+* 类说明:  就是一个归并排序 时间复杂度为 nlog(n)
 */
 public class 分治排序 {
 	public static void main(String []args){
@@ -43,7 +43,7 @@ public class 分治排序 {
             temp[t++] = arr[j++];
         }
         t = 0;
-        //将temp中的元素全部拷贝到原数组中
+        //将temp中的元素全部拷贝到原数组中，这一步不要忘记了
         while(left <= right){
             arr[left++] = temp[t++];
         }
