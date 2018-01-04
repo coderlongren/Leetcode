@@ -13,7 +13,7 @@ public class leetcode501_Find_Mode_In_Binary_search_tree {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 	}
 	 public static int[] findMode(TreeNode root) {
 		 Map<Integer, Integer> map = new HashMap<>();
@@ -31,8 +31,11 @@ public class leetcode501_Find_Mode_In_Binary_search_tree {
 		Integer[] a = (Integer[])res.toArray(new Integer[res.size()]);
 //		int[] b = Arrays.copyOf(original, newLength)
 		
-		return (int[])a;
-		 
+		int[] c =  new int[a.length];
+		for (int i = 0; i < a.length; i++){
+			c[i] = a[i];
+		}
+		 return c;
 	 }
 	 public static void search(TreeNode root,Map<Integer, Integer> map){
 		 if (root != null){
