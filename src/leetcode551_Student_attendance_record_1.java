@@ -12,6 +12,7 @@ public class leetcode551_Student_attendance_record_1 {
 //		LinkedList<E>
 	}
 	public static boolean checkRecord(String s) {
+		return false;
         
 		
     }
