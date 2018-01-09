@@ -7,7 +7,7 @@ public class leetcode551_Student_Attendance_Record1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 	}
 	//  需要使用 缺勤计数器 和 迟到计数器吗 我看完全不需要这样做
 	public static boolean checkRecord(String s) {
@@ -20,8 +20,24 @@ public class leetcode551_Student_Attendance_Record1 {
 		int countA = 0; // 缺勤计数器
 		int countL = 0; // 迟到计数器
 		for (Character character : s.toCharArray()) {
-			
+			if (character == 'A'){
+				countA++;
+				if (countA > 1){
+					return false;
+				}
+				countL = 0;
+			}
+			else if (character == 'L'){
+				countL++;
+				if (countL > 2){
+					return false;
+				}
+			}
+			else {
+				countL = 0;
+			}
 		}
+		return true;
 		
 	}
 
