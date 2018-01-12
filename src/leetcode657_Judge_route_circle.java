@@ -7,7 +7,7 @@ public class leetcode657_Judge_route_circle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 	}
 	public static boolean judgeCircle(String moves) {
         if (moves == null || moves.length() == 0){

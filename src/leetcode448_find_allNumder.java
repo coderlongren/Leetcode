@@ -14,6 +14,9 @@ public class leetcode448_find_allNumder {
 		System.out.println(findDisappearedNumbers(nums));
 	}
 	public static List<Integer> findDisappearedNumbers(int[] nums) {
+		// 这道题目需要利用 整数的下标
+		// 不过如果不考虑正负数问题的话，应该是不能AC的，做完了之后 我又看了看别人的答案，非常简洁 的确和我的代码区别很大啊。
+		// findDisappearedNumber2的解答 是更好 更简洁的回答
         List<Integer> ret = new ArrayList<Integer>();
         
         for(int i = 0; i < nums.length; i++) {
