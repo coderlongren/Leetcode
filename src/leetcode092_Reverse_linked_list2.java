@@ -8,7 +8,7 @@ public class leetcode092_Reverse_linked_list2 {
 		head.next.next = new ListNode(3);
 		head.next.next.next = new ListNode(4);
 		head.next.next.next.next = new ListNode(5);
-		ListNode newHead = reverseBetween(head, 3, 5);
+		ListNode newHead = reverseBetween(head, 1, 2);
 		while (newHead != null){
 			System.out.println(newHead.val);
 			newHead = newHead.next;

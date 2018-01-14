@@ -5,6 +5,7 @@ public class leetcode204_Count_Primes {
 		// TODO Auto-generated method stub
 		boolean[] notPrime = new boolean[5];
 		System.out.println(notPrime[3]);
+		System.out.println(countPrimes(3));
 	}	
 	public static int countPrimes(int n) {
         if (n <= 1){
