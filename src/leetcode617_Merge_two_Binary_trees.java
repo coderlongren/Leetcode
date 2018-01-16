@@ -5,12 +5,13 @@ import test.test;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年1月15日 下午10:31:12
-* 类说明: 
+* 类说明:  这是错误的答案， 原因未找到
 */
 public class leetcode617_Merge_two_Binary_trees {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		TreeNode t1 = new TreeNode(1);
 		t1.left = new TreeNode(3); t1.right = new TreeNode(2);
 		t1.left.left = new TreeNode(5);
@@ -23,26 +24,24 @@ public class leetcode617_Merge_two_Binary_trees {
 		
 	}
 	public  TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
-        TreeNode newTree = new TreeNode(0);
-//        merge(t1, t2, newTree);
-        test(newTree);
-        System.out.println(newTree.val);
-        return newTree;
+		return  merge(t1, t2);
+       
     }
-	public  void merge(TreeNode t1, TreeNode t2,TreeNode temp){
+	public  TreeNode merge(TreeNode t1, TreeNode t2){
 		if (t1 != null && t2 != null){
-			temp = new TreeNode(t1.val + t2.val);
-			merge(t1.left, t2.left, temp.left);
-			merge(t1.right, t2.right, temp.right);
+			TreeNode newtree = new TreeNode(t1.val + t2.val);
+			newtree.left = merge(t1.left, t2.left);
+			newtree.right = merge(t1.right, t2.right);
+			return newtree;
 		}
 		else if (t1 != null){
-			temp = t1;
+			return t1;
 		}
 		else if (t2 != null){
-			temp = t2;
+			return t2;
 		}
 		else {
-			
+			return null;
 		}
 		
 	}
