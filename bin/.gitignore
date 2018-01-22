@@ -54,6 +54,7 @@
 /leetcode027_Remove_Element.class
 /leetcode028_strStr.class
 /leetcode029_Divide_two_integer.class
+/leetcode029_Divide_two_integer2.class
 /leetcode035_SearchInsterPosition.class
 /leetcode038_CountAndSay.class
 /leetcode050_Pow.class
@@ -269,6 +270,7 @@
 /leetcodeContest65/
 /leetcodeContest66/
 /leetcodeContest67/
+/leetcodeContest68/
 /leetcode_119_pacalsTriangle.class
 /leetcode_268_missing_number_best.class
 /leetcode_Intersection_of_two_arrays.class
@@ -281,4 +283,3 @@
 /剑指offer/
 /多线程/
 /序列化/
-/leetcodeContest68/
