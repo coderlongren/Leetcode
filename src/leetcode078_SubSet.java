@@ -27,7 +27,8 @@ public class leetcode078_SubSet {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		int[] nums = {1,2,3};
+		System.out.println(subsets(nums));
 	}
 	 public static List<List<Integer>> subsets(int[] nums) {
 	     // 排序之后循环 题目关键之处在于 distinct integers 意味着 数字不会重复，降低了难度

@@ -4,7 +4,7 @@ import java.util.Set;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年2月1日 下午10:50:17
-* 类说明: 
+* 类说明: 如何求解一个简单的数独？
 */
 public class leetcode036_Valid_Sudoku {
 
@@ -28,6 +28,7 @@ public class leetcode036_Valid_Sudoku {
 				if (board[j][i] != '.' && !colSet.add(board[j][i])) {
 					return false;
 				}
+				// 这里的这个 sudu_row  sudu_col代表的就是 第0-8小数独的行数，列数
 				int sudu_row = i/3*3 + j/3;
 				int sudu_col = i%3*3 + j%3;
 				if (board[sudu_row][sudu_col] != '.' && !suduSet.add(board[sudu_row][sudu_col])) {
