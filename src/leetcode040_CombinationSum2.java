@@ -15,8 +15,8 @@ public class leetcode040_CombinationSum2 {
 		System.out.println(combinationSum2(candidates, 8));
 	}
 	 public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
-	        List<List<Integer>> list = new ArrayList<>();
-	        Arrays.sort(candidates);
+	     List<List<Integer>> list = new ArrayList<>();
+	     Arrays.sort(candidates);
 	     backtrack(list, new ArrayList<>(), candidates, target, 0);   
 	     return list;
 	 }
