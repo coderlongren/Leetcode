@@ -2,8 +2,8 @@ package leetcodeContest70;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年2月6日 下午5:47:28
-* 类说明:  如果 从底往上算，在string很大的时候，会MemberOutOf, 后来想到这个 K_th char
-* 是 跟第几行是无关的，每一个K(偶数先转化为奇数)  都是上一行的(K/2 + 1)由此得出递归的解法
+* 类说明:  如果 从底往上算，在string很大的时候，会MemberyOutOf, 后来想到这个 K_th char
+* 			是 跟第几行是无关的，每一个K(偶数先转化为奇数)  都是上一行的(K/2 + 1)由此得出递归的解法
 */
 public class leetcode779_Kth_Symbol_in_Grammar2 {
 
