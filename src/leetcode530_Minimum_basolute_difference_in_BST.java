@@ -7,8 +7,8 @@ import java.util.List;
 * 类说明: 错误的解答 正确的见 下一题目
 */
 public class leetcode530_Minimum_basolute_difference_in_BST {
-	 static Integer min = Integer.MAX_VALUE;
-	 static int pre = -1;
+	  Integer min = Integer.MAX_VALUE;
+	  int pre = -1;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		System.out.println(Integer.MAX_VALUE);
@@ -25,21 +25,21 @@ public class leetcode530_Minimum_basolute_difference_in_BST {
 		System.out.println(basolute_difference_in_BST.getMinimumDifference(root));
 	}
 	 public int getMinimumDifference(TreeNode root) {
-		 search(root, pre, min);
+		 search(root);
 		 return min;
 	 }
 	 // 采用中序遍历 是最简单的
-	 public  int search(TreeNode root,int pre,int min){
+	 public  int search(TreeNode root){
 		 if (root == null){
 			 return min;
 		 }
-		 search(root.left, pre, min);
+		 search(root.left);
 		 if (pre != -1){
 			 min = Math.min(min, root.val - pre);
 		 }
 		 pre = root.val;
 
-		 search(root.right, pre, min);
+		 search(root.right);
 		 return min;
 	 }
 	 public  int test (int min){

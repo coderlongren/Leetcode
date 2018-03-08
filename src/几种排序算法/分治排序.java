@@ -9,10 +9,11 @@ import java.util.Arrays;
 */
 public class 分治排序 {
 	public static void main(String []args){
-        int []arr = {9,8,7,6,5,4,3,2,1};
+        int []arr = {5,4,3};
         sort(arr);
         System.out.println(Arrays.toString(arr));
     }
+	/// 分治排序 就是归并排序，千万不要被 归并的名字吓住啊， 曾在面试中被问到归并排序，竟然傻乎乎的说不会
     public static void sort(int []arr){
         int []temp = new int[arr.length];//在排序前，先建好一个长度等于原数组长度的临时数组，避免递归中频繁开辟空间
         sort(arr,0,arr.length-1,temp);

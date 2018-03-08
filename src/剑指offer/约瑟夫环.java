@@ -26,7 +26,7 @@ public class 约瑟夫环 {
         while (start.size() > 1) {
             k = k + countNum;
             // 第m人的索引位置
-            k = k % (start.size()) - 1;
+            k = k % (start.size()) - 1;// 关键
             // 判断是否到队尾 如果到达了队尾，则得到的k = -1
             if (k < 0) {
                 System.out.println(start.get(start.size() - 1));
