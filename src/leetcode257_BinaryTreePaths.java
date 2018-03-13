@@ -14,6 +14,7 @@ public class leetcode257_BinaryTreePaths {
 		 searchBT(root, "", paths);
 		return paths;
 	  }
+	  // 简单的回溯法实现
 	 public static void searchBT(TreeNode root,String path,List<String> answer){
 		 
 		 if (root.left == null && root.right == null){

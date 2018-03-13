@@ -21,23 +21,23 @@ public class 快速排序 {
 	}
 	public static int partition(int []array,int lo,int hi){
         //固定的切分方式
-        int key=array[lo];
-        while(lo<hi){
-            while(array[hi]>=key&&hi>lo){
+        int key = array[lo];
+        while(lo < hi){
+            while(array[hi] >= key && hi > lo){ // 从后向前，找到第一个比key小的元素
                 hi--;
             }
-            array[lo]=array[hi];
-            while(array[lo]<=key&&hi>lo){
+            array[lo] = array[hi]; // 交换 
+            while(array[lo] <= key && hi > lo){// 从前往后，找到一个比key大的元素
                 lo++;
             }
-            array[hi]=array[lo];
+            array[hi] = array[lo]; // 交换
         }
-        array[lo]=key;
-        return lo;
+        array[lo] = key;
+        return lo; // lo之前的  和 之后的 已经有序了。
     }
     
     public static void sort(int[] array,int lo ,int hi){
-        if(lo>=hi){
+        if(lo >= hi){
             return ;
         }
         int index=partition(array,lo,hi);
