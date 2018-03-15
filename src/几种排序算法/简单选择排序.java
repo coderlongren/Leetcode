@@ -28,7 +28,7 @@ public class 简单选择排序 {
 					min = j;
 				}
 			}
-			// 已经得到了一个最小元素 
+			// 已经得到了一个最小元素
 			// 再次优化 如果 min != i 在交换
 			if (min != i){
 				int temp = a[min];
