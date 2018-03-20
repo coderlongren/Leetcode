@@ -11,6 +11,8 @@ public class swap {
 		Integer a = 1;
 		Integer b = 2;
 		swap(a, b);
+		System.out.println(a);
+		System.out.println(b);
 	}
 	public static void swap(Integer a, Integer b) {
 		a = a^b;
