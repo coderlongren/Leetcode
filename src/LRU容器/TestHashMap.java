@@ -39,8 +39,8 @@ public class TestHashMap {
 		map3.put("redis", 0);
 		map3.put("java", 1);
 		map3.put("C", 2);
-		int a = map3.get("redis");
-		int b = map3.get("C");
+		int a = map3.get("C");
+		int b = map3.get("redis");
 		Iterator iterator3 = map3.entrySet().iterator();
 		System.out.println("LinkedHashMap*************增加了构造参数******************");
 		while (iterator3.hasNext()){

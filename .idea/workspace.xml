@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aaa469dd-59dc-4535-936c-3647c463ed39" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/bin/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/BBShortest$HeapNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/BBShortest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/batch_Works$Flowshop.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/batch_Works.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/fib.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/fib2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/nQueue$Queue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/nQueue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/周期川.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/最大字段和.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/AlgortithmDesign/最大字段和_动态规划.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/BigMultiple.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/DFS/leetcode463_island_perimeter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/DP/最大字段和.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Employee.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Excelsheet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/IteratorTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/LRU容器/LRU.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/LRU容器/TestHashMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Leetcode543_Diameter_Of_a_Tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/LeetcodeContest57/leetcode720Three.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/LeetcodeContest57/leetcode720Two.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/LeetcodeContest57/leetcode722_RemvoeComments.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/LeetcodeContest57/leetcode722_Second.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/LeetcodeContest57/leetcode_720LongestWordInDictionary.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/List/ListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/List/MinStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/List/RandomListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/List/ReverseList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/List/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/List/TestLinkedList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/List/leetcode138_copy_list_with_random_pointer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/List/leetcode138_copy_the_list.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/MinStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/Solution.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/String_StringBuilder_StringBuffer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/TestArrays.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/TestIterator_map.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/TestVector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/TwoSum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/com/coderlong/DP/Triangle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/com/coderlong/DP/triangle_count.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/com/coderlong/calculate/表达式求值$op.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/com/coderlong/calculate/表达式求值.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/com/coderlong/copyClass/Body$Head.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/com/coderlong/copyClass/Body.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/com/coderlong/copyClass/Face.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/com/coderlong/interview/test1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/com/coderlong/test/TestScanner.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/contest56week/leetcode443_StringCompression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/contest56week/leetcode717.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/contest56week/leetcode719_smallestDistancePair.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/contest56week/leetcode_LongSubarray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/contest56week/leetcode_LongSubarrayBest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/contest56week/leetcode_longSubsrray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/Eighten.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/K好数.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/Palindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/TestJinzhi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/shiToShiLiu.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/shiliuToShi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/区间k大数查询.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/十进制转十六进制.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/周期串.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/复数运算.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/字母图形.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/字符串比较.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/数字特征.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/新建MicrosoftWord文档.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/最大最小公倍数.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/最小公倍数.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/杨辉三角形.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/查找整数.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/特殊回文数.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/特殊数字.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/纸牌屋.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/表达式计算.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/递归求二项式的值.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/闰年判断.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/lanqiao/org/零一字符串.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode001_twoSum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode002_addTwoNumbers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode003_lengthOfLongestSubstring.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode003_longest_Substring.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode005_LongestPalindromicSubString.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode006_convert.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode007_reverse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode008_atoi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode009_isPalindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode011_Container_with_most_water.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode012_IntegerToRoma.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode013_romanToInt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode014_longestCommonPrefix.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode015_3Sum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode016_3SumCloest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode017_LetterCombination.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode017_LetterCombinationOfaPhone.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode018_4Sum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode019_Remove_Nth_Node_From_End_Of_List$ListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode019_Remove_Nth_Node_From_End_Of_List.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode020_ValidParenttheses.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode020_isValid_String.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode021_mergeTwoLists$LinkNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode021_mergeTwoLists.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode023_Generate_Parentheses.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode024_Swap_Node_In_Pairs$ListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode024_Swap_Node_In_Pairs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode026_removeDuplicates.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode027_Remove_Element.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode028_strStr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode029_Divide_two_integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode029_Divide_two_integer2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode031_Next_Permutation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode033_Search_in_Rotated_sorted_array.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode034_Search_for_a_range.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode035_SearchInsterPosition.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode036_Valid_Sudoku.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode038_CountAndSay.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode039_combination_sum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode046_Permutations.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode050_Pow.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode053_MaxinumSubarray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode058_Logth_of_last_word.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode066_Plus_one.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode067_Add_Binary.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode069_sqrt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode070_ClimbingStairs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode070_climbing_Stairs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode076_Minimum_window_subString.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode076_minimum_windoa_substring.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode077_Combinations.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode078_SubSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode088_Merge_sorted_array.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode092_Reverse_linked_list2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode100_SameTree$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode100_SameTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode101_Symmetric_Tree$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode101_Symmetric_Tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode102_Binary_Tree_Level_Order_Traversal$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode102_Binary_Tree_Level_Order_Traversal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode103_Binary_Tree_ZigZag_Level_Order_Traversal$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode103_Binary_Tree_ZigZag_Level_Order_Traversal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode104_Maxinum_Depth_Of_BinaryTree$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode104_Maxinum_Depth_Of_BinaryTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode104_Maxinum_Depth_of_binary_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode105_Construct_BinaryTree_from_Preorder_and_inorder$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode105_Construct_BinaryTree_from_Preorder_and_inorder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode107_BinaryTreeLevelOrderTraversal$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode107_BinaryTreeLevelOrderTraversal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode108_Convert_sorted_array_to_Binaey_search_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode110_BalancedBinaryTree$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode110_BalancedBinaryTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode111_Mininum_Depth_of_Binary_Tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode112_Path_sum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode113_PathSum2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode113_Path_sum2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode118_Pascaltriangle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode119_PascalTriangle2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode121_BestTimeToBuyAndSellStock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode122_BestTimeToBuyAndSellStock2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode125_valid_Palindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode129_Sum_root_leaf_sum$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode129_Sum_root_leaf_sum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode136_Single.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode141_LinkedListCycle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode141_linked_List_Cycle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode155_MinStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode160_Intersection_of_two_linked_List.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode167_TwoSum2_input_array_is_sorted.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode169_majority_element.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode171_excel_sheet_column.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode172_Factorial_trailing_zeroes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode189_reverse_array.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode189_rotate_array.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode190_ReverseBits.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode190_reverse_bits.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode191_number_of_1bits.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode198_house_Robber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode202_Happy_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode203_remove_linked_list_elements.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode203_remove_linked_list_elements2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode204_Count_Primes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode204_countPrimes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode205_isomorphic_strings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode206_Reverse_linked_list.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode206_reverse_List.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode217_ContainsDuplicate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode217_contain_duplicate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode219_contains_duplicate2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode225_Implement_stack_using_queues.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode225_implement_stack_using_queue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode226_InvertBinaryTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode226_Invert_binary_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode231_Power_of_two.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode231_Power_of_two2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode232_Implement_Queue_using_stacks.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode234_Palindrome_linked_list.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode234_palindrome_linked_list_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode235_lowest_common_ancestor_od_a_binary_search_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode237DeleteNodeinalinkedList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode242_ValidAnagram.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode257_BinaryTreePaths$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode257_BinaryTreePaths.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode258_AddDigits.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode263__ugly_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode263_ugly_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode268_find_the_missing_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode278_First_Bad_version.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode283_Move_zeros.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode290_Word_pattern.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode292_NimGame.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode303_range_sum_Query_immutable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode326_Power_of_three.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode342_Power_of_four.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode344_reverse_string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode345_reverse_vowels_of_a_string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode349_Intersection_of_two_array.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode349_intersection_of_two_array3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode350_InterSection_of_two_arrays2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode367_ValidPerfect_Square.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode371_Sum_of_Integers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode374_Guest_number_higher_or_lower.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode383_Ranson_Note.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode387_find_unique_character_of_stirng.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode387_find_unique_character_of_stirng2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode389_find_the_difference.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode400_Nth_digit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode401_Binary_Watch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode401_binary_watch2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode404_Sum_Of_Left_Leaves.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode404_sumofLeft_leaves.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode405_convert_a_number_to_hexadecimal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode409_longest_palindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode412_FizzBuzz.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode414_thrid_Maximum_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode415_AddStrings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode434_NumberOfSegments_in_a_stirng.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode437_Path_sum3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode438_Find_anagrems_in_a_string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode438_find_all_anagrams_in_stirng.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode438_find_all_asdsad_in_a_string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode441_ArrangingCoins.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode443_StringCompression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode443_StringCompression2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode447_Number_of_boomerangs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode448_Find_all_number_disappeared_in_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode448_find_allNumder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode453_Minimum_moves_to_Equal_array.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode455_AssignCookies.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode459_repeated_substring_pattern.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode461_Hamming_distance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode475_Heaters.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode475_heaters2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode476_Number_Complement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode476_number_complement2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode479_Largest_palindrome_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode482_license_key_formatting.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode485_Max_Consecutive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode492_Construct_the_rectanglle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode496_Next_greater_element1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode496_next_greater_element2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode500_keyboard_row.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode501_Find_Mode_In_Binary_search_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode504_Base7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode506_Relative_ranks.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode506_relative_ranks2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode507_Perfect_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode520_DetectCapital.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode521_Longest_Uncommon_Subsequence2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode530_Minimum_basolute_difference_in_BST.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode532_K_diff_Pairs_in_an_array.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode538_ConvertBSTtoGreaterTree$A.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode538_ConvertBSTtoGreaterTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode538_convert_a_tree_to_greater.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode538_convert_bst_to_greater_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode541_reverseString2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode543_Diameter_of_binary_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode551_Student_Attendance_Record1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode551_Student_attendance_record_1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode557_reverse_Word_in_a_string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode561_ArrayPartition.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode563_Binary_Tree_Tilt$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode563_Binary_Tree_Tilt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode566_reshape_the_maxtrix.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode572_Subtree_of_another_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode575_Distribute_candies.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode581_ShortestUnsortedContinuous_Subarray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode591_Shortest_unsorted_ContinuousSubarray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode594_logest_harmonious_subsequence.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode598_rangeAddtion2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode599_Mininum_index_of_two_list.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode605_Can_Palce_Flowers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode606_Construct_String_from_Binarytree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode617_Merge_two_Binary_trees.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode628_Maximum_Product_of_three_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode630_MinimumAbsoluteDifferenceinBST.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode633_Sum_of_square_numbers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode637_AverageOfLevelInBinaryTree$TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode637_AverageOfLevelInBinaryTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode643_Maximun_average_subarray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode645_Set_mismatch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode653_two_sun5_input_is_a_BST.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode657_Judge_route_circle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode661_Image_smother.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode665_Non_decreasing_array.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode669_trim_a_binary_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode671_Second_Minimum_Node_in_search_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode674_the_longest_continous_increasig_subsequence.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode680_Valid_Palindrome2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode680_Valid_palindrome.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode680_validPalindrome2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode682_Baseball_game.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode686_Repeated_strin_match.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode687_Longest_univalue_path.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode690_Employee_Inportance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode693_BinaryNumberWithAlternate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode695_Max_Area_of_istand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode696_Count_Binary_SubStrings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode697_Degree_Of_an_Array.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode718_LongestSubstring.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode720_LOngestWords.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode720_LongestWordInDictionary.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode722_RemoveCommen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode724_Find_Pivod_Index.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode733_Flood_Fill.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode83RemoveDuplicatesFromSortList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest59/MyCalendar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest59/leetcode728_Self_dividing_numbers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest62/TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest62/leetcode742_cloest_leaf_a_tree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest62/leetcode743_NetWork_delay_time.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest62/leetcode743_NetWork_delay_time2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest62/leetcode744_findSnallestLettergreaterThanTarget.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest62/vbnvbnvbnv.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest63/leetcode746_min_cost_climbing_stairs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest63/leetcode746_min_cost_clmbing_stairs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest63/leetcode748_Shortest_Completing_word.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest63/leetcode748_shortestCompleingWord.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest64/leetcode747_Largest_numer_greater_than_twice_of_others.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest64/leetcode747_larest_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest64/leetcode751_IP_to_CIDR.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest65/leetcode754_Reach_a_number.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest65/leetcode754_reach_a_number2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest66/leetcode458_Bold_words_in_string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest66/leetcode790_FindAnagramMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest67/leetcode762_Prime_number_of_set_Bits_in_binary.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest67/leetcode763_Partition_labels.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest68/leetcode766_Toeplitz_matrix.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest69/leetcode771_Jewels_and_stones.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest69/leetcode775_global_and_local_inversions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcodeContest69/leetcode775_global_and_local_inversions2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode_119_pacalsTriangle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode_268_missing_number_best.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode_Intersection_of_two_arrays.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/socket.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Test2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/TestLambda$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/TestLambda$mythread.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/TestLambda.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/TestMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/TreeNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/person.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/testClone.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/testCollections$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/testCollections.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/testList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/test/testinteger.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/testCollection.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/testHaahMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/位运算/abs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/位运算/average.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/位运算/max.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/位运算/swap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/几种排序算法/优化的冒泡排序.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/几种排序算法/分治排序.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/几种排序算法/堆排序.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/几种排序算法/快速排序.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/几种排序算法/插入排序.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/几种排序算法/简单选择排序.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/创建对象的五种方法/Five.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/创建对象的五种方法/Four.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/创建对象的五种方法/One.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/创建对象的五种方法/Person.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/创建对象的五种方法/Three.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/创建对象的五种方法/Two.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/剑指offer/Deque.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/剑指offer/LRU.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/剑指offer/ListNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/剑指offer/PrintMaxOfNDigits.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/剑指offer/Stack_To_deque.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/剑指offer/反转打印链表.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/剑指offer/合并链表.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/剑指offer/约瑟夫环.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/动态代理/DynamicPeoxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/动态代理/Hosee.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/动态代理/HoseeDynamicimpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/动态代理/MyProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/多线程/Shunxuzhixing$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/多线程/Shunxuzhixing$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/多线程/Shunxuzhixing$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/多线程/Shunxuzhixing.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/序列化/ExternalizableTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/序列化/Student.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/序列化/Test1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/序列化/Test2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/序列化/TestTransient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/序列化/TestTransient2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/序列化/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/静态代理/Hosee.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/静态代理/HoseeImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/静态代理/HoseeProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/静态代理/StaticProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/LRU容器/TestHashMap.java" afterPath="$PROJECT_DIR$/src/LRU容器/TestHashMap.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/jdk/apache-maven-3.5.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="323" />
+    <option name="y" value="14" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="E:/github repostory/Getty" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="swap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="位运算.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="位运算.swap" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LeetCode" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.swap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aaa469dd-59dc-4535-936c-3647c463ed39" name="Default" comment="" />
+      <created>1521608701756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521608701756</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="323" y="14" width="1400" height="990" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26989868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/leetcode014_longestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode016_3SumCloest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode015_3Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/反射/RealSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/位运算/swap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LeetCode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
