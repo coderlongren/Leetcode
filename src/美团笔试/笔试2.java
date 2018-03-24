@@ -3,11 +3,12 @@ package 美团笔试;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年3月22日 下午8:27:35
-* 类说明: 
+* 类说明:  修改之后AC 的美团笔试题2 穷举法
 */
 public class 笔试2 {
 
@@ -58,24 +59,27 @@ public class 笔试2 {
 						map.put(c, 1);
 					}
 				}
-				for (int i = 1; i < 100; i++) {
+				int min = 1;
+				String res = "";
+				
+				for (char c = '1'; c <= '9'; c++) {
+					min = Math.min(min, map.get(c));
+				}
+				for (char c = '1'; c <= '9'; c++) {
 					boolean flag = true;
-					for (char c = '1'; c <= '9'; c++) {
-						if (map.get(c) == i) {
-							String temp = "";
-							for (int k = 0; k <= i; k++) {
-								temp =temp + c;
+					if (map.get(c) == min) {
+						if (map.get(c) - map.get('0') >= 1) {
+							res += c;
+							for (int i = 1; i <= map.get('0') + 1; i++) {
+								res += "0";
+								flag = false;
+								break;
 							}
-							System.out.println(temp);
-							flag = false;
-							break;
 						}
-						if (map.get(c) == i && map.get(c) - map.get("0") >= 2) {
-							String temp = "";
-							for (int k = 0; k <= i; k++) {
-								temp =temp + c;
+						else {
+							for (int i = 1; i <= map.get(c) + 1; i++) {
+								res += c;
 							}
-							System.out.println(temp);
 							flag = false;
 							break;
 						}
@@ -83,7 +87,11 @@ public class 笔试2 {
 					if (!flag) {
 						break;
 					}
+					
+					
 				}
+				
+				System.out.println(res);
 			}
 			
 		}

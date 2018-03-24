@@ -78,6 +78,7 @@ public class leetcode056_merge_intervals {
 		list.add(i1);
 		list.add(i3);
 		list.add(i4);
-		System.out.println(merge(list));
+		List<Interval> res = merge(list);
+		System.out.println(res.size());
 	}
 }
