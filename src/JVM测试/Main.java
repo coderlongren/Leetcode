@@ -15,15 +15,23 @@ public class Main {
 //		System.out.println(SuperClass.value);
 //		System.out.println(SubClass.value);
 //		SuperClass[] supers = new SuperClass[3];
-		System.out.println(SuperClass.STRING);
-		new Thread()
-		{
-			public void run() {
-				
-			}
-		}.checkAccess();
-		Thread t = new Thread();
-		t.checkAccess();
+//		System.out.println(SuperClass.STRING);
+//		new Thread()
+//		{
+//			public void run() {
+//				
+//			}
+//		}.checkAccess();
+//		Thread t = new Thread();
+//		t.checkAccess();
+		Main main = new Main();
+		ClassLoader classLoader = main.getClass().getClassLoader();
+		while (classLoader != null) {
+			System.out.println(classLoader.getClass().getName());
+			classLoader = classLoader.getParent();
+		}
+		System.out.println();
+		
 	}
 
 	

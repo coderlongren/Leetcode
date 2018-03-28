@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年3月24日 下午7:19:38
-* 类说明: 
+* 类说明: S A 的两种构造途径
 */
 public class test3 {
 

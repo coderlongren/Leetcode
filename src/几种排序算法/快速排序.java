@@ -19,7 +19,7 @@ public class 快速排序 {
 			System.out.print(i  + " ");
 		}
 	}
-	public static int partition(int []array,int lo,int hi){
+	public static int partition(int[] array,int lo,int hi) {
         //固定的切分方式
         int key = array[lo];
         while(lo < hi){

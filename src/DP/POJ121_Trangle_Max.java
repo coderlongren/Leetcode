@@ -26,8 +26,9 @@ public class POJ121_Trangle_Max {
 	}
 	public static int maxNum (int i, int j) {
 		if (max[i][j] != 0) {
-			return maxNum(i, j);
+			return max[i][j];
 		}
+		// 边界条件， 到达了最后一层， 就直接赋值了。
 		if (i == n - 1) {
 			max[i][j] = D[i][j];
 		}
