@@ -13,10 +13,12 @@
 /Leetcode543_Diameter_Of_a_Tree.class
 /LeetcodeContest57/
 /List/
+/ListNode.class
 /Main.class
 /MinStack.class
 /Mock_Interview_One/
 /NumMatrix.class
+/Solution.class
 /String_StringBuilder_StringBuffer.class
 /TestArrays.class
 /TestIterator_map.class
@@ -26,8 +28,6 @@
 /com/
 /contest56week/
 /lanqiao/
-/ListNode.class
-/Solution.class
 /leetcode001_twoSum.class
 /leetcode002_addTwoNumbers.class
 /leetcode003_lengthOfLongestSubstring.class
@@ -318,6 +318,7 @@
 /今日头条/
 /位运算/
 /几种排序算法/
+/分治/
 /创建对象的五种方法/
 /剑指offer/
 /动态代理/
@@ -329,4 +330,11 @@
 /牛客coder/
 /美团笔试/
 /静态代理/
-/分治/
+/leetcode062_Unique_paths.class
+/leetcode063_Unique_Path2.class
+/leetcode064_Minimum_Path_Sum.class
+/leetcode091_Decode_Ways.class
+/leetcode095_Unique_Binary_Search_Tree.class
+/leetcode096_Unique_binary_Search_Trees.class
+/leetcode120_Triangle.class
+/leetcode139_Word_Break.class

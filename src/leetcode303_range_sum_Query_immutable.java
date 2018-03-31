@@ -10,8 +10,8 @@ public class leetcode303_range_sum_Query_immutable {
 		// TODO Auto-generated method stub
 		
 	}
+	
 	int[] nums;
-
 	public leetcode303_range_sum_Query_immutable(int[] nums) {
 		// 这是一个 DP过程
 	    for(int i = 1; i < nums.length; i++) {
