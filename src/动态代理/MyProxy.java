@@ -20,7 +20,6 @@ public class MyProxy implements InvocationHandler {
 		return Proxy.newProxyInstance(obj.getClass().getClassLoader(), obj.getClass().getInterfaces(), this);
 	}
 	
-	
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		System.out.println(" l am a proxy");
