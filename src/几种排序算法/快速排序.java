@@ -15,8 +15,11 @@ public class ¿ìËÙÅÅĞò {
 		}
 		sort(a, 0, a.length - 1);
 		System.out.println();
+		
 		for (int i : a) {
+			
 			System.out.print(i  + " ");
+			
 		}
 	}
 	public static int partition(int[] array,int lo,int hi) {

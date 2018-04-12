@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class leetcode_119_pacalsTriangle {
+public class leetcode119_pacalsTriangle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
