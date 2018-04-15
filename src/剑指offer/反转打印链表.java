@@ -11,11 +11,35 @@ public class 反转打印链表 {
 		ListNode head = new ListNode(1);
 		head.next = new ListNode(2);
 		head.next.next = new ListNode(3);
-		ListNode newhead = reverseList(head);
+		ListNode newhead = reverseList2(head);
 		while (newhead != null) {
 			System.out.println(newhead.val);
 			newhead = newhead.next;
 		}
+	}
+	public static ListNode reverseList2(ListNode head) {
+		if (head == null) { // 
+			return null;
+		}
+		if (head.next == null) { // 只有一个节点，不需要反转
+			return head;
+		}
+		ListNode pPre = null;
+		ListNode p = head;
+		ListNode pNext = head.next;
+		ListNode newHead = null;
+		// 就是节点 顺序变换的问题, 注意细节问题
+		while (p != null) {
+			pNext = p.next;
+			if (pNext == null) { // 到了最后一个节点了
+				newHead = p;
+			}
+			p.next = pPre;
+			pPre = p;
+			p = pNext;
+		}
+		return newHead;
+		
 	}
 	public static ListNode reverseList(ListNode head) {
 		if (head.next == null) {

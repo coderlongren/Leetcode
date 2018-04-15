@@ -6,7 +6,6 @@ package 几种排序算法;
 *  不需要额外的空间
 */
 public class 堆排序 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] arr = {20,50,10,40,70,10,80,30,60};
@@ -35,7 +34,6 @@ public class 堆排序 {
 			headAdjust(arr, 0, len); // 再次对堆进行调整 
 		}
 	}
-	
 	// 堆的调整算法， 堆排序的关键之处
 	public static void headAdjust(int[] arr, int i, int len) {
 		// i 为非叶子节点的索引
@@ -54,14 +52,14 @@ public class 堆排序 {
 				swap(arr, i, j);
 			}
 			else {
+				
 				break; // 父节点，比左右孩子节点都大，不需要比较了
+				
 			}
-			
 			// 这个 i = j， 会循环调整堆
 			i = j;
 		}
 	}
-	
 	// 交换，堆中两个节点的值, 其实就是每次调整完之后，把堆顶的最大元素放到尾部，就好比进行了一次冒泡
 	public static void swap(int[] arr, int i, int j) {
 		int temp = arr[i];
