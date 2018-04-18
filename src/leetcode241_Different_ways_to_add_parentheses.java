@@ -1,5 +1,8 @@
+import java.awt.image.RescaleOp;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 /**
 * @author 作者 : coderlong
@@ -10,13 +13,14 @@ import java.util.List;
 * 就可得到原问题的解。
 */
 public class leetcode241_Different_ways_to_add_parentheses {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		String input = "1+1+2";
+		System.out.println(diffWaysToCompute(input));
 	}
-	public List<Integer> diffWaysToCompute(String input) {
-        List<Integer> ret = new LinkedList<>();
+	// 这个算法，没有考虑重复的因素。导致反复计算了很多冗余数据
+	public static List<Integer> diffWaysToCompute(String input) {
+        List<Integer> res = new LinkedList<>();
         for (int i = 0; i < input.length(); i++) {
         	if (input.charAt(i) == '-' 
         			|| input.charAt(i) == '+' 
@@ -30,19 +34,30 @@ public class leetcode241_Different_ways_to_add_parentheses {
         			for (Integer p2 : part2Ret) {
         				int c = 0;
         				switch (input.charAt(i)) {
-                        case '+': c = p1+p2;
+                        case '+': 
+                        	c = p1+p2;
+                        	res.add(c);
                             break;
-                        case '-': c = p1-p2;
+                        case '-': 
+                        	c = p1-p2;
+                        	res.add(c);
                             break;
-                        case '*': c = p1*p2;
+                        case '*': 
+                        	c = p1*p2;
+                        	res.add(c);
                             break;
         				}
-        				ret.add(c);
+        				
         			}
         		}
         	}
         }
+        
+        // 如果这次没有遇到符号，只有一个数字的话
+        if (res.size() == 0) {
+        	res.add(Integer.valueOf(input));
+        }
+		return res;
     }
-	
 
 }
