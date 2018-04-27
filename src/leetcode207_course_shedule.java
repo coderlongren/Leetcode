@@ -4,7 +4,7 @@ import java.util.Queue;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年3月11日 上午11:05:32
-* 类说明:  参考的网上大神的做法，
+* 类说明:   Topological sort 拓扑排序的基本解法
 */
 public class leetcode207_course_shedule {
 	// 第一种 使用 队列，BFS，循环检查
