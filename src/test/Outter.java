@@ -10,14 +10,21 @@ import java.util.concurrent.Executors;
 */
 public class Outter {
 	int a  = 10; 
-	static int b = 2;
-	static class Inner{
-		public Inner() {
-//			System.out.println(a); // 编译错误，不能访问外部类的成原变量
-			System.out.println(b);
+	class Inner{
+		int b;
+		public Inner(int b) {
+			this.b = b;
+		}
+		public void test() {
+			System.out.println(a);
 		}
 	}
 	public static void main(String[] args) {
 //		Executors.newFixedThreadPool(5)
+		Outter outter = new Outter();
+		Inner in = outter.new Inner(2);
+		in.test();
+		
+		
 	}
 }

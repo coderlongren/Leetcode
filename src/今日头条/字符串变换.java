@@ -8,7 +8,7 @@ public class ×Ö·û´®±ä»» {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(editDistance("112", "012"));
+		System.out.println(editDistance("113", "222"));
 	}
 	public static int editDistance (String s1, String s2) {
 		int len1 = s1.length();
@@ -29,7 +29,6 @@ public class ×Ö·û´®±ä»» {
 				}
 				else {
 					dp[i][j] = Math.min(dp[i - 1][j - 1] + 1, Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1));
-					
 				}
 			}
 		}

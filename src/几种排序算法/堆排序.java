@@ -1,4 +1,8 @@
 package 几种排序算法;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年1月3日 上午10:41:58
@@ -7,18 +11,18 @@ package 几种排序算法;
 */
 public class 堆排序 {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int[] arr = {20,50,10,40,70,10,80,30,60};
-		System.out.println("堆排序之前");
-		for (int i : arr) {
-			System.out.print(i + " ");
-		}
-		heapSort(arr);
-		System.out.println("\n 堆排序之后");
-		for (int i : arr) {
-			System.out.print(i + " ");
-		}
-		
+//		// TODO Auto-generated method stub
+//		int[] arr = {20,50,10,40,70,10,80,30,60};
+//		System.out.println("堆排序之前");
+//		for (int i : arr) {
+//			System.out.print(i + " ");
+//		}
+//		heapSort(arr);
+//		System.out.println("\n 堆排序之后");
+//		for (int i : arr) {
+//			System.out.print(i + " ");
+//		}
+		testPriority();
 	}
 	// 堆排序算法， 最大堆
 	public static void heapSort(int[] arr) {
@@ -65,6 +69,30 @@ public class 堆排序 {
 		int temp = arr[i];
 		arr[i] = arr[j];
 		arr[j] = temp;
+	}
+	
+	public static void testPriority() {
+		PriorityQueue<Integer> queue = new PriorityQueue<>(new Comparator<Integer>() {
+
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				if (o1 < o2) {
+					return 1; 
+				}
+				else {
+					return -1;
+				}
+			}
+			
+		});
+		queue.offer(2);
+		queue.offer(1);
+		queue.offer(5);
+		queue.offer(4);
+		queue.offer(3);
+		while (!queue.isEmpty()) {
+			System.out.println(queue.poll());
+		}
 	}
 
 }
