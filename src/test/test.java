@@ -33,6 +33,9 @@ public class test {
 		set.add('b');
 		System.out.println(set.size());
 		System.out.println(set.remove(-2));
+		String s1 = "ABC";
+		String s2 = "abc";
+		System.out.println(s1.compareToIgnoreCase(s2));
 
 	}
 	

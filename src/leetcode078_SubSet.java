@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.ThreadPoolExecutor;
 /***
  * Given a set of distinct integers, nums, return all possible subsets (the power set).
 
@@ -29,6 +30,7 @@ public class leetcode078_SubSet {
 		// TODO Auto-generated method stub
 		int[] nums = {1,2,3};
 		System.out.println(subsets(nums));
+//		ThreadPoolExecutor
 	}
 	 public static List<List<Integer>> subsets(int[] nums) {
 	     // 排序之后循环 题目关键之处在于 distinct integers 意味着 数字不会重复，降低了难度

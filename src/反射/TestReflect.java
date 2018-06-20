@@ -2,6 +2,9 @@ package 反射;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
 * @author 作者 : coderlong
@@ -11,8 +14,15 @@ import java.lang.reflect.InvocationTargetException;
 public class TestReflect {
 	public int test;
 	public String name;
-	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
 		// TODO Auto-generated method stub
+		List<?> list = new ArrayList<>();
+		Method method = list.getClass().getMethod("add", Object.class);
+		Method method2 = list.getClass().getDeclaredMethod("add", Object.class);
+		method.invoke(list, "sss");
+		method2.invoke(list, 3);
+		System.out.println(list.size());
+		
 		Class<?> clazz1 = null;
 		clazz1 = Class.forName("反射.User");
 		User user = (User)clazz1.newInstance();
@@ -37,7 +47,7 @@ public class TestReflect {
         }
         // 结果
         	
-        User user2 = (User)cons[0].newInstance(20,"林黛玉");
+        User user2 = (User)cons[2].newInstance();
         
         System.out.println(user2);
         

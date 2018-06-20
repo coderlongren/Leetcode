@@ -20,7 +20,7 @@ public class testArrayList {
 		System.out.println(!list.isEmpty());
 		
 		int[] temp = {1,2,3,4,5};
-		Class<?> clazz = temp.getClass().getComponentType();
+		Class clazz = temp.getClass().getComponentType();
 		System.out.println("数组类型" + clazz.getName());
 		System.out.println("长度"  + Array.getLength(temp));
 		System.out.println("数组第一个元素" + Array.get(temp,0));

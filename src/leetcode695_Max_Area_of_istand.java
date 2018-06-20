@@ -1,6 +1,6 @@
 
 public class leetcode695_Max_Area_of_istand {
-
+	public static int[][] dics = {{0,1},{0,-1},{1,0},{-1,0}};
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[][] grid = {{1}};
@@ -24,7 +24,11 @@ public class leetcode695_Max_Area_of_istand {
 	public static int instand(int i,int j,int[][] grid){
 		if (i >= 0 && i < grid.length && j >= 0 && j < grid[0].length && grid[i][j] == 1){
 			grid[i][j] = 0;
-			return (1 + instand(i + 1, j, grid) + instand(i - 1, j, grid) + instand(i, j + 1,  grid) + instand(i, j - 1, grid));
+			int temp = 1;
+			for (int[] dic: dics) {
+				temp += instand(i + dic[0], j + dic[1], grid);
+			}
+			return temp;
 			
 		}
 		else {

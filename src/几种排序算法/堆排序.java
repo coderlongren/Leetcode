@@ -17,29 +17,69 @@ public class 堆排序 {
 //		for (int i : arr) {
 //			System.out.print(i + " ");
 //		}
-//		heapSort(arr);
+//		heapSort2(arr);
 //		System.out.println("\n 堆排序之后");
 //		for (int i : arr) {
 //			System.out.print(i + " ");
 //		}
 		testPriority();
 	}
-	// 堆排序算法， 最大堆
+	// 构造一个 逆序的堆排序
+	public static void heapSort2(int[] arr) {
+		int len = arr.length - 1;
+		// 构造最小堆
+		for (int i = len/2 - 1; i >= 0; i--) {
+			heapAdjust2(arr, i, len);
+		}
+		while (len >= 0) {
+			swap(arr, 0, len);
+			len--;
+			heapAdjust2(arr, 0, len);
+		}
+		
+	}
+	// 最小堆的 调整算法
+	public static void heapAdjust2(int[] arr, int i, int len) {
+		int left;
+		int right;
+		int j;
+		while ((left = 2*i + 1) <= len) { // 判断当前节点有无 左节点，left为左节点
+			right = left + 1; // 右节点
+			j = left; // j ---> left
+			if (j < len) { // 上面假设的右节点存在的话
+				if (arr[left] > arr[right]) {
+					j++; // j---> right 指向右节点
+				}
+			}
+			if (arr[i] > arr[j]) {
+				swap(arr, i, j);
+			}
+			else {
+				
+				break; // 父节点，比左右孩子节点都大，不需要比较了
+				
+			}
+			i = j;
+		}
+		
+	}
+	// 堆排序算法， 这里给出的是最大堆构造
 	public static void heapSort(int[] arr) {
 		int len = arr.length - 1;
 		// 模拟堆的构造
+		// i = len/2 - 1 i节点必须有孩子节点，才能调整
 		for (int i = len/2 - 1; i >= 0; i--) {
-			headAdjust(arr, i, len);
+			heapAdjust(arr, i, len);
 		}
 		
 		while (len >= 0) {
 			swap(arr, 0, len); // 堆顶元素，和尾节点交换之后，长度减一，最大元素已经到了堆的最后
 			len--; // 堆长度减一
-			headAdjust(arr, 0, len); // 再次对堆进行调整 
+			heapAdjust(arr, 0, len); // 再次对堆进行调整 
 		}
 	}
 	// 堆的调整算法， 堆排序的关键之处
-	public static void headAdjust(int[] arr, int i, int len) {
+	public static void heapAdjust(int[] arr, int i, int len) {
 		// i 为非叶子节点的索引
 		int left;
 		int right;
@@ -76,12 +116,7 @@ public class 堆排序 {
 
 			@Override
 			public int compare(Integer o1, Integer o2) {
-				if (o1 < o2) {
-					return 1; 
-				}
-				else {
-					return -1;
-				}
+				return o1 - o2;
 			}
 			
 		});

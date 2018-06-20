@@ -28,7 +28,8 @@ public class TestTransient2 {
 		        os.flush();
 		        os.close();
 		        System.out.println("user对象已经序列化了");
-		        user.setUsername("wangyake");
+		        user.setUsername("wangyake"); // 注意 objectIuputStream 中读取的不是 王雅柯 而是wangyake
+		         // 因为 name根本没有被序列化
 		        ObjectInputStream in = new ObjectInputStream(new FileInputStream("E:/Ehcache/user.txt"));
 		        try {
 					user = (User) in.readObject();

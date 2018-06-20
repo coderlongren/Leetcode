@@ -10,8 +10,8 @@ import java.io.Serializable;
 public class User implements Serializable{
 	private static final long serialVersionUID = 8294180014912103005L;  
 	 
-    private static String username;
-    private transient String passwd;
+    private static String username; // static 不能被序列化的
+    private transient  String passwd;
     
     public String getUsername() {
 		return username;

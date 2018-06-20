@@ -1,0 +1,31 @@
+echo echo echo \r\n \n
+long long long \n
+갖갖갖갖갖 \n
+echo echo echo \r\n \n
+long long long \n
+갖갖갖갖갖 \n
+echo echo echo \r\n \n
+long long long \n
+갖갖갖갖갖 \n
+echo echo echo \r\n \n
+long long long \n
+갖갖갖갖갖 \n
+echo echo echo \r\n \n
+long long long \n
+갖갖갖갖갖 \n
+echo echo echo \r\n \n
+long long long \n
+갖갖갖갖갖 \n
+echo echo echo \r\n \n
+long long long \n
+갖갖갖갖갖 \n
+echo echo echo \r\n \n
+long long long \n
+갖갖갖갖갖 \n
+echo echo echo \r\n \n
+long long long \n
+갖갖갖갖갖 \n
+echo echo echo \r\n \n
+long long long \n
+갖갖갖갖갖 \n
+ 

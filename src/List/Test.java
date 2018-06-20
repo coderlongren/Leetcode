@@ -1,4 +1,7 @@
 package List;
+
+import java.util.List;
+
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年1月14日 下午3:05:01
@@ -19,6 +22,15 @@ public class Test {
 		System.out.println(minStack.top());
 		minStack.pop();
 		System.out.println(minStack.top());
+//		List<? extends Number> flist = new ArrayList<Inetger>();
+        // Compile Error: can't add any type of object:
+        // flist.add(new Apple())
+        // flist.add(new Orange())
+        // flist.add(new Fruit())
+//        // flist.add(new Object())
+//        flist.add(null); // Legal but uninteresting
+//        // We Know that it returns at least Fruit:
+//        Fruit f = flist.get(0);
 	}
 
 }

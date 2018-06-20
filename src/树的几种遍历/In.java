@@ -44,5 +44,28 @@ public class In {
 		}
 		
 	}
+	public static TreeNode inNextNode(TreeNode root, TreeNode p) {
+		if (p.right != null) {
+			return inNextNode(root, p.right);
+		}
+		else {
+			TreeNode suc = null;
+			while (root != null) {
+				if (root.val < p.val) {
+					root = root.right;
+					suc = root;
+				}
+				else if (root.val > p.val) {
+					root = root.left;
+					suc = root;
+				}
+				else {
+					break;
+				}
+			}
+			return suc;
+			
+		}
+	}
 	
 }

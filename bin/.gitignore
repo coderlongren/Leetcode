@@ -1,8 +1,9 @@
 /AVL/
 /AlgortithmDesign/
-/BigMultiple.class
+/BloomFilter/
 /DFS/
 /DP/
+/BigMultiple.class
 /DivideAndConquer/
 /Employee.class
 /Excelsheet.class
@@ -15,15 +16,15 @@
 /Leetcode543_Diameter_Of_a_Tree.class
 /LeetcodeContest57/
 /List/
+/ListNode.class
 /Main.class
 /MinStack.class
 /Mock_Interview_One/
 /NumMatrix.class
+/Solution.class
 /String_StringBuilder_StringBuffer.class
 /TestArrays.class
 /TestIterator_map.class
-/ListNode.class
-/Solution.class
 /TestVector.class
 /TreeLinkNode.class
 /TreeNode.class
@@ -57,6 +58,8 @@
 /leetcode021_mergeTwoLists$LinkNode.class
 /leetcode021_mergeTwoLists.class
 /leetcode023_Generate_Parentheses.class
+/leetcode023_Merge_K_Sorted_lists$1.class
+/leetcode023_Merge_K_Sorted_lists.class
 /leetcode024_Swap_Node_In_Pairs$ListNode.class
 /leetcode024_Swap_Node_In_Pairs.class
 /leetcode026_removeDuplicates.class
@@ -65,6 +68,7 @@
 /leetcode029_Divide_two_integer.class
 /leetcode029_Divide_two_integer2.class
 /leetcode031_Next_Permutation.class
+/leetcode032_Longest_calid_parentheses.class
 /leetcode033_Search_in_Rotated_sorted_array.class
 /leetcode034_Search_for_a_range.class
 /leetcode035_SearchInsterPosition.class
@@ -72,6 +76,7 @@
 /leetcode038_CountAndSay.class
 /leetcode039_combination_sum.class
 /leetcode040_CombinationSum2.class
+/leetcode042_Trapping_Rain_Water.class
 /leetcode043_multiply_Strings.class
 /leetcode046_Permutations.class
 /leetcode047_Permutations2.class
@@ -86,6 +91,9 @@
 /leetcode056_merge_intervals$1.class
 /leetcode056_merge_intervals.class
 /leetcode058_Logth_of_last_word.class
+/leetcode059_spiral_matrix2.class
+/leetcode060_Permutation_sqquence_.class
+/leetcode061_rotate_list.class
 /leetcode062_Unique_paths.class
 /leetcode063_Unique_Path2.class
 /leetcode064_Minimum_Path_Sum.class
@@ -100,6 +108,8 @@
 /leetcode076_minimum_windoa_substring.class
 /leetcode077_Combinations.class
 /leetcode078_SubSet.class
+/leetcode079_Word_Search.class
+/leetcode084_Largest_rectangle_in_Histogram.class
 /leetcode088_Merge_sorted_array.class
 /leetcode090_Subsets2.class
 /leetcode091_Decode_Ways.class
@@ -149,6 +159,8 @@
 /leetcode139_Word_Break.class
 /leetcode141_LinkedListCycle.class
 /leetcode141_linked_List_Cycle.class
+/leetcode148_sort_list.class
+/leetcode151_Reverse_Words_in_a_String.class
 /leetcode152_Maximum_Product_SubArray.class
 /leetcode155_MinStack.class
 /leetcode160_Intersection_of_two_linked_List.class
@@ -183,6 +195,7 @@
 /leetcode225_implement_stack_using_queue.class
 /leetcode226_InvertBinaryTree.class
 /leetcode226_Invert_binary_tree.class
+/leetcode227_Basic_Calculator2.class
 /leetcode231_Power_of_two.class
 /leetcode231_Power_of_two2.class
 /leetcode232_Implement_Queue_using_stacks.class
@@ -191,6 +204,7 @@
 /leetcode235_lowest_common_ancestor_od_a_binary_search_tree.class
 /leetcode236_Lowest_common_Ancestor_of_a_binarytree.class
 /leetcode237DeleteNodeinalinkedList.class
+/leetcode238_Product_of_Array_Exceld_self.class
 /leetcode241_DifferentWaysAddParentheses.class
 /leetcode241_Different_ways_to_add_parentheses.class
 /leetcode242_ValidAnagram.class
@@ -205,6 +219,7 @@
 /leetcode278_First_Bad_version.class
 /leetcode279_prefect_squares.class
 /leetcode283_Move_zeros.class
+/leetcode287_Find_The_Duplicated_element.class
 /leetcode290_Word_pattern.class
 /leetcode292_NimGame.class
 /leetcode300_Logest_increasing_Subswquences.class
@@ -220,9 +235,13 @@
 /leetcode342_Power_of_four.class
 /leetcode344_reverse_string.class
 /leetcode345_reverse_vowels_of_a_string.class
+/leetcode347_Top_K_Frequent_Elements$1.class
+/leetcode347_Top_K_Frequent_Elements.class
 /leetcode349_Intersection_of_two_array.class
 /leetcode349_intersection_of_two_array3.class
 /leetcode350_InterSection_of_two_arrays2.class
+/leetcode358_RearrangeStringkDistanceApart$1.class
+/leetcode358_RearrangeStringkDistanceApart.class
 /leetcode363_Max_Sum_of_Rectangle_No_Larger_Than_K.class
 /leetcode367_ValidPerfect_Square.class
 /leetcode368_Largest_divisible_subset.class
@@ -241,6 +260,8 @@
 /leetcode404_Sum_Of_Left_Leaves.class
 /leetcode404_sumofLeft_leaves.class
 /leetcode405_convert_a_number_to_hexadecimal.class
+/leetcode406_Queue_Reconstruction_by_Height$1.class
+/leetcode406_Queue_Reconstruction_by_Height.class
 /leetcode409_longest_palindrome.class
 /leetcode412_FizzBuzz.class
 /leetcode414_thrid_Maximum_number.class
@@ -285,6 +306,7 @@
 /leetcode515_Find_Largest_Value_in_each_tree_row.class
 /leetcode520_DetectCapital.class
 /leetcode521_Longest_Uncommon_Subsequence2.class
+/leetcode523_Continuous_Subarrat_Sum.class
 /leetcode529_Minesweeper.class
 /leetcode530_Minimum_basolute_difference_in_BST.class
 /leetcode532_K_diff_Pairs_in_an_array.class
@@ -299,6 +321,7 @@
 /leetcode551_Student_Attendance_Record1.class
 /leetcode551_Student_attendance_record_1.class
 /leetcode557_reverse_Word_in_a_string.class
+/leetcode560_Subarray_Sum_Equals_K.class
 /leetcode561_ArrayPartition.class
 /leetcode563_Binary_Tree_Tilt$TreeNode.class
 /leetcode563_Binary_Tree_Tilt.class
@@ -314,6 +337,7 @@
 /leetcode605_Can_Palce_Flowers.class
 /leetcode606_Construct_String_from_Binarytree.class
 /leetcode617_Merge_two_Binary_trees.class
+/leetcode621_Task_Schedule.class
 /leetcode628_Maximum_Product_of_three_number.class
 /leetcode630_MinimumAbsoluteDifferenceinBST.class
 /leetcode633_Sum_of_square_numbers.class
@@ -321,6 +345,7 @@
 /leetcode637_AverageOfLevelInBinaryTree.class
 /leetcode643_Maximun_average_subarray.class
 /leetcode645_Set_mismatch.class
+/leetcode647_Palindromic_subStrings.class
 /leetcode653_two_sun5_input_is_a_BST.class
 /leetcode657_Judge_route_circle.class
 /leetcode661_Image_smother.class
@@ -339,6 +364,7 @@
 /leetcode695_Max_Area_of_istand.class
 /leetcode696_Count_Binary_SubStrings.class
 /leetcode697_Degree_Of_an_Array.class
+/leetcode713_Subaray_Product_Less_Than_K.class
 /leetcode718_LongestSubstring.class
 /leetcode720_LOngestWords.class
 /leetcode720_LongestWordInDictionary.class
@@ -346,6 +372,7 @@
 /leetcode722_RemoveCommen.class
 /leetcode724_Find_Pivod_Index.class
 /leetcode733_Flood_Fill.class
+/leetcode767_Reorganize_String.class
 /leetcode767_Reorganized_String.class
 /leetcode784_Letter_case_Permutation.class
 /leetcode784_LettercasePermutation.class
@@ -354,6 +381,10 @@
 /leetcode801_Mininum_SwapMakesSequencesIncreasing2.class
 /leetcode802_Find_Eventual_Safe_States.class
 /leetcode813_largest_Sum_of_Averages.class
+/leetcode819_Most_common_word.class
+/leetcode832_Flipping_an_image.class
+/leetcode833_Find_And_replace_in_string.class
+/leetcode835_Image_overlap.class
 /leetcode83RemoveDuplicatesFromSortList.class
 /leetcodeContest59/
 /leetcodeContest62/
@@ -366,6 +397,7 @@
 /leetcodeContest69/
 /leetcodeContest70/
 /leetcodeContest71/
+/leetcodeContest72/
 /leetcodeContest73/
 /leetcodeContest74/
 /leetcodeContest75/
@@ -375,6 +407,8 @@
 /leetcodeContest81/
 /leetcodeContest82/
 /leetcodeContest83/
+/leetcodeContest84/
+/leetcodeContest88/
 /leetcode_Intersection_of_two_arrays.class
 /socket.class
 /test/
@@ -397,11 +431,7 @@
 /美团笔试/
 /链家/
 /静态代理/
-/leetcode023_Merge_K_Sorted_lists.class
-/leetcode023_Merge_K_Sorted_lists$1.class
-/leetcode819_Most_common_word.class
-/leetcode151_Reverse_Words_in_a_String.class
-/leetcode767_Reorganize_String.class
-/leetcode358_RearrangeStringkDistanceApart.class
-/leetcode358_RearrangeStringkDistanceApart$1.class
-/leetcode647_Palindromic_subStrings.class
+/DataStruct/
+/leetcode380_RandomizedSet.class
+/RandomizedSet.class
+/leetcodeContest89/

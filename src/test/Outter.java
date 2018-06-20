@@ -25,6 +25,6 @@ public class Outter {
 		Inner in = outter.new Inner(2);
 		in.test();
 		
-		
+		int i = 2 + 2;
 	}
 }
