@@ -20,7 +20,6 @@ public class TestPushbackInputStream {
 	      while ((byteData = (byte) pis.read()) != -1) {
 	        System.out.print((char) byteData);
 	        pis.unread(byteData);
-	        // Reread the byte we unread
 	        byteData = (byte) pis.read();
 	        System.out.print((char) byteData);
 	      }

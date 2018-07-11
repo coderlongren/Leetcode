@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年2月21日 上午11:16:44
-* 类说明: 
+* 类说明:  递归和非递归的算法
 */
 public class In {
 	public static void main(String[] args) {

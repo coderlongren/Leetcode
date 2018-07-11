@@ -22,7 +22,7 @@ public class ×î´ó×Ö¶ÎºÍ {
 			else {
 				b = nums[i];
 			}
-			if (b > sum){
+			if (b > sum) {
 				sum  = b;
 			}
 		}

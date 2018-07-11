@@ -15,7 +15,7 @@ public class Test {
 		System.out.println(1<<25);
 		int[] b = new int[2];
 		bitSet.set(0, true);
-		System.out.println(bitSet.get(11));
+		System.out.println(bitSet.get(1));
 	}
 
 }
