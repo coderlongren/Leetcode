@@ -12,17 +12,17 @@ import java.util.PriorityQueue;
 public class 堆排序 {
 	public static void main(String[] args) {
 //		// TODO Auto-generated method stub
-//		int[] arr = {20,50,10,40,70,10,80,30,60};
-//		System.out.println("堆排序之前");
-//		for (int i : arr) {
-//			System.out.print(i + " ");
-//		}
-//		heapSort2(arr);
-//		System.out.println("\n 堆排序之后");
-//		for (int i : arr) {
-//			System.out.print(i + " ");
-//		}
-		testPriority();
+		int[] arr = {20,50,10,40,70,10,80,30,60};
+		System.out.println("堆排序之前");
+		for (int i : arr) {
+			System.out.print(i + " ");
+		}
+		heapSort2(arr);
+		System.out.println("\n 堆排序之后");
+		for (int i : arr) {
+			System.out.print(i + " ");
+		}
+//		testPriority();
 	}
 	// 构造一个 逆序的堆排序
 	public static void heapSort2(int[] arr) {
@@ -47,11 +47,11 @@ public class 堆排序 {
 			right = left + 1; // 右节点
 			j = left; // j ---> left
 			if (j < len) { // 上面假设的右节点存在的话
-				if (arr[left] > arr[right]) {
+				if (arr[left] < arr[right]) {
 					j++; // j---> right 指向右节点
 				}
 			}
-			if (arr[i] > arr[j]) {
+			if (arr[i] < arr[j]) {
 				swap(arr, i, j);
 			}
 			else {
@@ -112,11 +112,12 @@ public class 堆排序 {
 	}
 	
 	public static void testPriority() {
+		// 无所谓了 o1 - o2 其实就是默认的最小堆  堆顶是最小值。
 		PriorityQueue<Integer> queue = new PriorityQueue<>(new Comparator<Integer>() {
 
 			@Override
 			public int compare(Integer o1, Integer o2) {
-				return o1 - o2;
+				return o2 - o1;
 			}
 			
 		});

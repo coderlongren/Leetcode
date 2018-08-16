@@ -12,7 +12,7 @@ public class leetcode047_Permutations2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] nums = {3,3,0,3};
+		int[] nums = {1,1,0};
 		System.out.println(permuteUnique(nums));
 	}
 	

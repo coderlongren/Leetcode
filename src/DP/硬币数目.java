@@ -28,7 +28,7 @@ public class 硬币数目 {
 		int[] coins = {1,2,5};
 		int[] dp = new int[n + 1];
 		dp[0] = 0; //  最初的状态
-		
+		 
 		for (int i = 1; i <= n; i++) {
 			for (int j = 0; j < coins.length; j++) {
 				if (i >= coins[j]) {

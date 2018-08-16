@@ -1,6 +1,7 @@
 package 剑指offer;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -41,4 +42,16 @@ public class 约瑟夫环 {
         }
         System.out.println("最后一个存活的元素是" + start.get(0));
 	}
+	public int LastRemaining_Solution(int n, int m) {
+        LinkedList<Integer> list = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            list.add(i);
+        }
+        int index = 0;
+        while (list.size() > 1) {
+            index = (index + m - 1)%list.size();
+            list.remove(index);
+        }
+        return list.size() == 1 ? list.get(0) : -1;
+    }
 }
