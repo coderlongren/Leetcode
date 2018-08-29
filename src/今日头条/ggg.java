@@ -1,10 +1,13 @@
 package 今日头条;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -18,14 +21,14 @@ public class ggg {
 		String ii = scanner.nextLine();
 		int m = Integer.valueOf(ii);
 		String[] input = new String[m];
+		Map<num, Integer> map = new HashMap<>();
 		List<num> list = new LinkedList<>();
 		for (int i = 0; i < m; i++) {
 			String line = scanner.nextLine();
-			String[] ts = line.split(";");
-			for (String item : ts) {
-				String[] ss = item.split(",");
-				list.add(new num(Integer.valueOf(ss[0]), Integer.valueOf(ss[1])));
-			}
+			String[] ss = line.split(" ");
+			num tempNum =new num(Integer.valueOf(ss[0]), Integer.valueOf(ss[1])); 
+			map.put(tempNum, i+1);
+			list.add(tempNum);
 		}
 		list.sort(new Comparator<num>() {
 
@@ -35,32 +38,36 @@ public class ggg {
 				return o1.start - o2.start;
 			}
 		});
-//		for (num item : list) {
-//			System.out.println(item.start + "," + item.end);
-//		}
-		List<num> res = new LinkedList<>();
-		num test = null;
-		for (num item : list) {
-			if (test == null || test.end < item.start) {
-				res.add(test);
-				test = item;
-			}
-			else {
-				test.end = Math.max(test.end, item.end);
+		List<Integer> res = new ArrayList<>();
+		for (int i = 0; i < list.size(); i++) {
+			List<num> temp = new LinkedList<>(list);
+			temp.remove(i);
+			if (safe(temp)) {
+				res.add(map.get(list.get(i)));
 			}
 		}
-		res.add(test);
-		res.remove(0);
-		int i = 0;
-		for (num item : res) {
-			if (i == res.size() - 1) {
-				System.out.print(item.start + "," + item.end);
-			}else {
-				System.out.print(item.start + "," + item.end + ";");
+		System.out.println(res.size());
+		res.sort(new Comparator<Integer>() {
+
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				// TODO Auto-generated method stub
+				return o1 - o2;
 			}
-			i++;
+			
+		});
+		for (int item : res) {
+			System.out.print(item + " ");
 		}
-		
+
+	}
+	public static boolean safe(List<num> list) {
+		for (int i = 0; i < list.size() - 1; i++) {
+			if (list.get(i).end > list.get(i + 1).start) {
+				return false;
+			}
+		}
+		return true;
 	}
 }
 class num {

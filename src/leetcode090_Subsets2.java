@@ -11,7 +11,7 @@ public class leetcode090_Subsets2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] nums = {1,2,2};
+		int[] nums = {1,2,3};
 		System.out.println(subsetsWithDup(nums));
 	}
 	public static List<List<Integer>> subsetsWithDup(int[] nums) {

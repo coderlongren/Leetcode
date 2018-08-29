@@ -9,5 +9,6 @@ public class LinkedListToTree {
 		if (root == null) {
 			return root;
 		}
+		return root;
 	}
 }

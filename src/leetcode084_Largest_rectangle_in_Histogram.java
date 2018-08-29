@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2018年5月24日 下午3:45:38
@@ -37,6 +39,22 @@ public class leetcode084_Largest_rectangle_in_Histogram {
 			area = Math.max(area, heights[i]*(1 + left + right));
 		}
 		return area;
+    }
+	public static int largestRectangleArea2(int[] height) {
+        int len = height.length;
+        Stack<Integer> s = new Stack<Integer>();
+        int maxArea = 0;
+        for(int i = 0; i <= len; i++){
+            int h = (i == len ? 0 : height[i]);
+            if(s.isEmpty() || h >= height[s.peek()]){
+                s.push(i);
+            }else{
+                int tp = s.pop();
+                maxArea = Math.max(maxArea, height[tp] * (s.isEmpty() ? i : i - 1 - s.peek()));
+                i--;
+            }
+        }
+        return maxArea;
     }
 
 }

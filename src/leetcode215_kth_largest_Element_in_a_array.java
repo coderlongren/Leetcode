@@ -1,5 +1,6 @@
 import java.util.ArrayDeque;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -11,7 +12,20 @@ public class leetcode215_kth_largest_Element_in_a_array {
 
 	public static void main(String[] args) {
 		int[] nums = {3,2,1,5,6,4};
-		System.out.println(findKthLargest3(nums, 2));
+//		System.out.println(findKthLargest3(nums, 2));
+		PriorityQueue<Integer> minHeap = new PriorityQueue<>(new Comparator<Integer>() {
+
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				// TODO Auto-generated method stub
+				return o2 - o1;
+			}
+		});
+		for (int item : nums) {
+			minHeap.add(item);
+		}
+		System.out.println(minHeap.peek());
+		
 		
 	}
 	// ¿ª¸öÍæÐ¦
@@ -92,6 +106,7 @@ public class leetcode215_kth_largest_Element_in_a_array {
     	largeK.poll();
     	largeK.poll();
     	return largeK.poll();
+    	
     }
  	
     

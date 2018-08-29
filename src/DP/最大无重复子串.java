@@ -16,11 +16,11 @@ public class 最大无重复子串 {
 		// TODO Auto-generated method stub
 		StringBuilder builder = new StringBuilder("abc");
 		builder.delete(0,3);
-		String string = "abcabcdaaa";
+		String string = "abcadcdaaabcd";
 		System.out.println(logestNotPoliatod(string));
 	}
 	public static String logestNotPoliatod(String string) {
-		Map<Character, Integer> map = new HashMap<>();
+		Map<Character, Integer> map = new HashMap<>(); // 主要存储了 每个字符和坐标的映射
 		Map<Integer, List<String>> subStrings = new HashMap<>();
 		StringBuilder builder = new StringBuilder();
 		int max = Integer.MIN_VALUE;
@@ -32,9 +32,11 @@ public class 最大无重复子串 {
 					subStrings.get(temp).add(builder.toString());
 				}
 				else {
+					
 					List<String> list = new ArrayList<>();
 					list.add(builder.toString());
 					subStrings.put(temp, list);
+					
 				}
 				builder.delete(0, builder.length());
 				temp = 0;
@@ -47,7 +49,21 @@ public class 最大无重复子串 {
 				max = Math.max(max, temp);
 			}
 		}
-		
+		//  最后这一步也是必须的 aabcd这种最长子串在末尾的情况
+		//  如果少了最后一步 就错误了
+		if (subStrings.containsKey(temp)) {
+			subStrings.get(temp).add(builder.toString());
+		}
+		else {
+			
+			List<String> list = new ArrayList<>();
+			list.add(builder.toString());
+			subStrings.put(temp, list);
+			
+		}
+		for (String str : subStrings.get(max)) {
+			System.out.println(str);
+		}
 		return subStrings.get(max).get(0);
 	}
 
