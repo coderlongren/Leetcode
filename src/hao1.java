@@ -7,23 +7,6 @@ import java.util.Scanner;
 */
 public class hao1 {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		String line = scanner.nextLine();
-		int t = Integer.valueOf(line);
-		if (t >= 1) {
-			
-		}
-		String[] lines = new String[t];
-		for (int i = 0; i < t; i++) {
-			lines[i] = scanner.nextLine();
-		}
-		for (int i = 0; i < t; i++) {
-			String item = lines[i];
-			String[] temp = item.split(" ");
-			long x = Long.valueOf(temp[0]);
-			long k = Long.valueOf(temp[1]);
-			System.out.println(kth(x, k));
-		}
 		
 	}
 	public static int kth(long x, long k) {
