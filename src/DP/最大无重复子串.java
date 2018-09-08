@@ -55,14 +55,10 @@ public class 最大无重复子串 {
 			subStrings.get(temp).add(builder.toString());
 		}
 		else {
-			
 			List<String> list = new ArrayList<>();
 			list.add(builder.toString());
 			subStrings.put(temp, list);
 			
-		}
-		for (String str : subStrings.get(max)) {
-			System.out.println(str);
 		}
 		return subStrings.get(max).get(0);
 	}

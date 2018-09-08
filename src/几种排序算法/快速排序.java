@@ -5,7 +5,10 @@ import java.util.LinkedList;
 /**
 * @author 作者 : coderlong
 * @version 创建时间：2017年12月17日 下午3:32:09
-* 类说明: 
+* 类说明:  
+* 1. 第一种 可以使用 当元素接近有序时，退化为 插入排序， O(n)的时间复杂度
+* 2. 第二中， 随机选择基准值
+* 3. 第三种 优化方案：三路合并的方式 使用 left, i, j, right 四个指针
 */
 public class 快速排序 {
 	public static void main(String[] args){
